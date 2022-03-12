@@ -5,7 +5,7 @@
 
 .container{
     margin: auto;
-    width: 80%;
+    width: 70%;
 }
 
 #header{
@@ -39,7 +39,7 @@
 /* First Section CSS */
 #firstSection{
     background-color: #1F2937;
-    padding: 10% 0;
+    padding: 5% 0;
     overflow: hidden;
 }
 
@@ -72,5 +72,39 @@
     padding: 10%;
     background-color: #E5E7EB;
     float: right;
-    /* width: 50%; */
+}
+
+/* Second Section CSS */
+#secondSection{
+    background-color: white;
+    padding: 5% 0;
+    text-align: center;
+}
+
+#informationBoxes{
+    display: flex;
+    width: 70%;
+    display: inline-flex;
+    margin: 50px;
+}
+
+#secondSectionTitle{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.infoBox{
+    font-size: 18px;
+    color: #6a6a6b;
+    text-align:center;
+}
+
+.randomInfoBox{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-radius: 20px;
+    border-color: #3882F6;
+    display:inline-block;
 }
