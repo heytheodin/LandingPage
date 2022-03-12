@@ -108,3 +108,27 @@
     border-color: #3882F6;
     display:inline-block;
 }
+
+/* Third Section CSS */
+#thirdSection{
+    background-color: #E5E7EB;
+    padding: 5% 0;
+    text-align: center;
+    text-align: center;
+}
+
+#quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 70%;
+    display:inline-block;
+}
+
+#quoteAuthor{
+    width: 80%;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px;
+}
