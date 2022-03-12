@@ -153,7 +153,6 @@
     width: 70%;
     height: auto;
     display: flex;
-    /* align-content: flex-end; */
 }
 
 #secondaryButton{
@@ -168,4 +167,17 @@
 
 #callToActionText{
     width: 90%;
+}
+
+
+/* Footer Section */
+#footer{
+    background-color: #1F2937;
+    padding: 2% 0;
+    display: flex;         
+    justify-content: center;
+}
+
+#copyrightText{
+    color: white;
 }
