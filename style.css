@@ -132,3 +132,40 @@
     font-weight: bolder;
     font-size: 20px;
 }
+
+
+/* Fourth Section CSS */
+#fourthSection{
+    background-color: white;
+    padding: 5% 0;
+}
+
+#callToAction{
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+#callToActionContent{
+    width: 70%;
+    height: auto;
+    display: flex;
+    /* align-content: flex-end; */
+}
+
+#secondaryButton{
+    background-color: #3882F6;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    border: solid 2px;
+    border-color: white;
+    cursor: pointer;
+}
+
+#callToActionText{
+    width: 90%;
+}
